@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Coder-Dex</title>
+</head>
+<body>
+    <header>
+        <div class="mainHeader flex just marg">
+            <h1 class="title bText">Coder Dex</h1>
+        </div>
+        <div class="subHeader bText flex just marg">
+            <h2>Enter a GitHub username!</h2>
+        </div>
+        <div class="flex just marg">
+            <!-- on input triggers the getUsername function and the function is passing the agrument "this" through. So, anything you type is passed through the function.  -->
+            <input class="textField" type="text" oninput="getUsername(this)" placeholder="GitHub Name" name="username">
+        </div>
+        <div class="btndiv flex just marg">
+            <!-- This btn triggers the search function, which sets off a series of functions to make everything happen -->
+            <button class="btn" onclick="search()">GO!</button>
+        </div>
+    </header>
+    <h1 id="notFound" >User not found</h1>
+    <main id="main"></main>
+    <script src="script.js"></script>
+</body>
+</html>

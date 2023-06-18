@@ -1,0 +1,118 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    /* outline: 1px solid red; */
+}
+
+body {
+    background-image: linear-gradient(90deg, #E61C5D, #FFE98A);
+}
+
+/* Header Styles */
+.mainHeader {
+    padding: 20px 0;
+}
+
+.title {
+    font-size: 78px;
+}
+
+.subHeader {
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.textField {
+    padding: 5px 40px;
+    box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.521);
+}
+
+#notFound {
+    visibility: hidden;
+    text-align: center;
+    padding-top: 20px;
+} 
+
+.btndiv {
+    padding: 20px 0;
+    width: 70%;
+    border-bottom: 4px solid #E61C5D;
+}
+
+.btn {
+    padding: 5px 112px;
+    background-color: #930077;
+    color: rgb(193, 193, 193);
+    box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.537);
+    cursor: pointer;
+}
+
+/* card styles */
+.cardContainer {
+    padding-top: 50px;
+    border: 4px solid lightgrey;
+    width: 325px;
+    height: 700px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #9300785f;
+    box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.537);
+    border-radius: 15px;
+}
+
+.userName {
+    align-items: center;
+}
+
+.name {
+    font-size: 40px;
+}
+
+.userImg {
+    height: 250px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 3px 3px rgba(255, 255, 0, 0.182);
+}
+
+.city {
+    font-size: 40px;
+}
+
+.fCount {
+    font-size: 30px;
+}
+
+.btnCon {
+    padding-bottom: 20px;
+}
+
+.gitBtn {
+    padding: 5px 112px;
+    background-color: #930077;
+    color: rgb(193, 193, 193);
+    box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.537);
+    cursor: pointer;
+}
+
+/* utility classes */
+.flex {
+    display: flex;
+}
+
+.just {
+    justify-content: center;
+}
+
+.marg {
+    margin: 0 auto;
+}
+
+.margT {
+    margin-top: 50px;
+}
+
+.bText {
+    color: rgb(36, 36, 36);
+}
